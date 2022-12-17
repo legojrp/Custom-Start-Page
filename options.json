@@ -1,0 +1,19 @@
+{
+    "settings": {
+        "prependOfSearch":"home/users/google>",
+        "searchEngine":"https://google.com/search?q=$"
+    },
+    "messages":[ 
+        "Executing Program \"Start Page\"...",
+        "Grabbing Data...",
+        "Complete"
+    ],
+    "links":[
+        {"name":"Canvas", "link":"https://hse.instructure.com"},
+        {"name":"FlightRadar24", "link":"https://flightradar24.com"},
+        {"name":"Google","link":"https://google.com"},
+        {"name":"Wikipedia", "link" : "https://Wikipedia.org"},
+        {"name":"Skyward", "link": "https://sis.hse.k12.in.us/scripts/wsisa.dll/WService=wsEAplus/seplog01.w"}
+    ]
+    
+}

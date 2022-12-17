@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,600&display=swap');
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+}
+a {
+    text-decoration:none;
+    color:pink;
+    text-indent: 1rem;
+    
+}
+input {
+    background-color: black;
+    color: white;
+    border:none;
+    font-family: "Source Code Pro", monospace;
+    outline: none;
+    font-size:20px;
+}
