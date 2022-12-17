@@ -13,7 +13,10 @@
         {"name":"FlightRadar24", "link":"https://flightradar24.com"},
         {"name":"Google","link":"https://google.com"},
         {"name":"Wikipedia", "link" : "https://Wikipedia.org"},
-        {"name":"Skyward", "link": "https://sis.hse.k12.in.us/scripts/wsisa.dll/WService=wsEAplus/seplog01.w"}
+        {"name":"Skyward", "link": "https://sis.hse.k12.in.us/scripts/wsisa.dll/WService=wsEAplus/seplog01.w"},
+        {"name":"ESPN", "link":"https://espn.com"},
+        {"name":"NBC News","link":"https://nbcnews.com"},
+        {"name":"NFL.com","link":"https://nfl.com"}
     ]
     
 }
