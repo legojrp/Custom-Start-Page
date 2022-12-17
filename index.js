@@ -41,3 +41,6 @@ document.addEventListener("keypress", function(event){
         window.open(data.settings.searchEngine.replace("$",$("#searchLine").val()),"_self")
     }
 })
+document.addEventListener("click",function(){
+    $("#searchLine").focus()
+})
