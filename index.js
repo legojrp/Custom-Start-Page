@@ -1,5 +1,5 @@
 let outputArray = []
-let arrayLoop = 0;
+let arrayLoop = -1;
 let data;
 $(function(){
     $.getJSON('options.json', function(newData){
@@ -36,11 +36,20 @@ function outputLoop(){
     }
 }
 document.addEventListener("keypress", function(event){
-    console.log("hi");
     if (event.which === 13){
-        window.open(data.settings.searchEngine.replace("$",$("#searchLine").val()),"_self")
+        if (isValidUrl($("#searchLine").val())){
+            window.open($("#searchLine").val().includes("http") ? $("#searchLine").val() : "https://"+ $("#searchLine").val())
+        }
+        else {
+            window.open(data.settings.searchEngine.replace("$",$("#searchLine").val()),"_self")
+        }
     }
 })
 document.addEventListener("click",function(){
     $("#searchLine").focus()
 })
+
+function isValidUrl(string) {
+    var res = string.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+    return (res !== null)
+  };
