@@ -16,7 +16,9 @@
         {"name":"Skyward", "link": "https://sis.hse.k12.in.us/scripts/wsisa.dll/WService=wsEAplus/seplog01.w"},
         {"name":"ESPN", "link":"https://espn.com"},
         {"name":"NBC News","link":"https://nbcnews.com"},
-        {"name":"NFL.com","link":"https://nfl.com"}
+        {"name":"NFL.com","link":"https://nfl.com"},
+        {"name":"Spaceflight Now", "link":"https://spaceflightnow.com"},
+        {"name":"SpaceNews", "link":"https://spacenews.com"}
     ]
     
 }
